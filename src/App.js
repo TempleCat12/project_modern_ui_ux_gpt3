@@ -1,6 +1,6 @@
 import './App.css';
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3} from './containers'
-import { Navbar } from "./components"
+import { Navbar, Brand, CTA } from "./components"
 function App() {
   return (
     <div className="App">
@@ -8,9 +8,11 @@ function App() {
         <Navbar />
         <Header />
       </div>
+      <Brand />
       <WhatGPT3 />
       <Features />
       <Possibility />
+      <CTA />
       <Blog />
       <Footer />
     </div>
